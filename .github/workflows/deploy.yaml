@@ -31,7 +31,8 @@ jobs:
       - name: Render Website
         run: |
           mkdir -p _site
-          pandoc -s index.md -o _site/index.html
+          cp styles.css _site
+          pandoc --standalone --css=styles.css index.md -o _site/index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
