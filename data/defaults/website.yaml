@@ -1,0 +1,9 @@
+input-files:
+  - index.md
+output-file: >-
+  _site/index.html
+
+# Options
+css: styles.css
+standalone: true
+data-dir: ./data
