@@ -4,6 +4,7 @@ output-file: >-
   _site/index.html
 
 # Options
+from: markdown+autolink_bare_uris
 css: styles.css
 standalone: true
 data-dir: ./data
