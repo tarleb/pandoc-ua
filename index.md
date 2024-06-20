@@ -4,6 +4,8 @@ author:
   - Albert Krewinkel
 ---
 
+![Pandoc-logo](img/pandoc.svg)
+
 Пандок — це універсальний документний конвертер.
 Це означає, якщо потрібно перетворити Markdown у Word, вебсайти у PDF, або LaTeX у Libre Office ODT, то
 Пандок може зробити це.
