@@ -32,6 +32,7 @@ jobs:
         run: |
           mkdir -p _site
           cp styles.css _site
+          cp -a img _site
           pandoc --data-dir=data -d website
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
