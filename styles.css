@@ -46,9 +46,13 @@ p {
 a {
   color: #1a1a1a;
 }
+a .uri {
+  display: block;
+}
 a:visited {
   color: #1a1a1a;
 }
+
 img {
   max-width: 100%;
 }
